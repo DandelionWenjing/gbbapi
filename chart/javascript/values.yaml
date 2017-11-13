@@ -22,3 +22,7 @@ environment:
   name: CONNECTION_STRING
   secretName: my-cosmosdb-mongo-secret
   secretKey: connectionstring
+secret:
+  name: my-cosmosdb-mongo-secret
+  key: connectionstring
+  value: bW9uZ29kYjovL2Y0ZDQ2NWNjLTM1MmQtNDdkZi04NGJiLWE5ZmZjMWI5YTVkMDpjSGIxTUowalpHUUZmMk5QVlRpTmRkbDFlY1JwNlVZNTlRUzEyUjFveTlXaEFkRDQ1d0xEMjRiV1gwa0luRFdQNjZQYnYya2RPb3c2ZEQwRWk2NTJnQT09QGY0ZDQ2NWNjLTM1MmQtNDdkZi04NGJiLWE5ZmZjMWI5YTVkMC5kb2N1bWVudHMuYXp1cmUuY29tOjEwMjU1Lz9zc2w9dHJ1ZSZyZXBsaWNhU2V0PWdsb2JhbGRi
