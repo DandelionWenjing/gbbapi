@@ -8,7 +8,7 @@ image:
   pullPolicy: IfNotPresent
 service:
   name: node
-  type: ClusterIP
+  type: LoadBalancer
   externalPort: 8000
   internalPort: 8000
 resources:
