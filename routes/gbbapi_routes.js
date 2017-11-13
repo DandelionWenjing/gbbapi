@@ -5,7 +5,13 @@ module.exports = function(app, db) {
         res.send('OK')
     });
    
-   
+   app.get('/gbbfinder', (req, res) => {
+     db.collection('gbbs').find({}).toArray(function(err, result) {
+       if (err) throw err;
+       res.send(result);
+       db.close
+     });
+   });
    
     app.get('/gbbfinder/:id', (req, res) => {
     const id = req.params.id;
