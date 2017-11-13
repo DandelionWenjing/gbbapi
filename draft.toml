@@ -1,6 +1,6 @@
 [environments]
   [environments.development]
-    name = "oldfashioned-wasp"
+    name = "gbb-api"
     namespace = "default"
     wait = false
     watch = false
