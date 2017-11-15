@@ -26,9 +26,9 @@ spec:
                 name: {{ .Values.environment.secretName }}
                 key: {{ .Values.environment.secretKey}}
           - name: KUBE_POD_NAME
-          valueFrom:
-            fieldRef:
-              fieldPath: metadata.name
+            valueFrom:
+              fieldRef:
+                fieldPath: metadata.name
         livenessProbe:
           httpGet:
             path: /health
