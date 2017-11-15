@@ -57,6 +57,7 @@ module.exports = function(app, db) {
             res.send({ 'error': 'An error occured'});
         } else {
         res.send(result.ops[0]);
+        console.log('Request processed by POD: ' + process.env.KUBE_POD_NAME);
     }
     }); 
   });
