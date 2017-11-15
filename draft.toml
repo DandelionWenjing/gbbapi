@@ -3,5 +3,5 @@
     name = "gbb-api"
     namespace = "default"
     wait = false
-    watch = false
+    watch = true
     watch_delay = 2
